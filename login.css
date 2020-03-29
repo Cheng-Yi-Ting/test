@@ -1,0 +1,17 @@
+/* 背景圖片 */
+
+.nav {
+    margin-bottom: 10px;
+}
+
+.login-wrap {
+    width: 100%;
+    /* 水平居中頁面 */
+    margin: auto;
+    /* 使用 max-width 替代 width 可以更完美的處理當瀏覽器視窗小於元素寬度的情況 ，設定最大寬度限制。*/
+    max-width: 525px;
+    min-height: 630px;
+    position: relative;
+    background: url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
